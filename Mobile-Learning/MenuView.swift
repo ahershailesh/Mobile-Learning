@@ -9,11 +9,19 @@ import SwiftUI
 
 struct MenuItem {
     let chapter: String
-    let topics: [String]
+    let topics: [Topic]
+}
+
+struct Topic {
+    let title: String
+    let view: AnyView
 }
 
 let menuList = [
-    MenuItem(chapter: "Swift UI + Combine", topics: ["Buiding List and Navigation"])
+    MenuItem(chapter: "Swift UI + Combine", topics: [
+        Topic(title: "Buiding List and Navigation", view: AnyView(LandmarkList())),
+        Topic(title: "Half Tunes", view: AnyView(Text("Half Tunes")))
+    ])
 ]
 
 struct MenuView: View {
@@ -21,15 +29,13 @@ struct MenuView: View {
         NavigationView {
             List(menuList, id: \.chapter) { item in
                 Section(item.chapter, content: {
-                    VStack {
-                        ForEach(item.topics, id: \.self) { item in
+                        ForEach(item.topics, id: \.title) { topic in
                             NavigationLink {
-                                Text("Thank you")
+                                topic.view
                             } label: {
-                                Text(item)
+                                Text(topic.title)
                             }
                         }
-                    }
                 })
             }
             .navigationTitle("Learning Plan")

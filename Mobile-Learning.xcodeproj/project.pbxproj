@@ -115,6 +115,7 @@
 				8A4A8555295B297C00D4AAF9 /* Mobile_LearningApp.swift */,
 				8A4A857F295B298F00D4AAF9 /* MenuView.swift */,
 				8A4A8557295B297C00D4AAF9 /* ContentView.swift */,
+				8A4A8594295B41AA00D4AAF9 /* URLSession */,
 				8A4A8581295B307000D4AAF9 /* ListAndNavigation */,
 				8A4A8559295B297D00D4AAF9 /* Assets.xcassets */,
 				8A4A855B295B297D00D4AAF9 /* Preview Content */,
@@ -176,6 +177,13 @@
 				8A4A8592295B3C7000D4AAF9 /* LandmarkList.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8A4A8594295B41AA00D4AAF9 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = URLSession;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
