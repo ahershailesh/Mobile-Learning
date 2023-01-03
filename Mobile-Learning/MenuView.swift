@@ -20,7 +20,7 @@ struct Topic {
 let menuList = [
     MenuItem(chapter: "Swift UI + Combine", topics: [
         Topic(title: "Buiding List and Navigation", view: AnyView(LandmarkList())),
-        Topic(title: "Half Tunes", view: AnyView(Text("Half Tunes")))
+        Topic(title: "Half Tunes", view: AnyView(TrackList()))
     ])
 ]
 
