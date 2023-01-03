@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A498F13296466760007CA91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A498F12296466750007CA91 /* README.md */; };
 		8A4A8556295B297C00D4AAF9 /* Mobile_LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A8555295B297C00D4AAF9 /* Mobile_LearningApp.swift */; };
 		8A4A8558295B297C00D4AAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A8557295B297C00D4AAF9 /* ContentView.swift */; };
 		8A4A855A295B297D00D4AAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4A8559295B297D00D4AAF9 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A498F12296466750007CA91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8A4A8552295B297B00D4AAF9 /* Mobile-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4A8555295B297C00D4AAF9 /* Mobile_LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_LearningApp.swift; sourceTree = "<group>"; };
 		8A4A8557295B297C00D4AAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		8A4A8549295B297B00D4AAF9 = {
 			isa = PBXGroup;
 			children = (
+				8A498F12296466750007CA91 /* README.md */,
 				8A4A8554295B297B00D4AAF9 /* Mobile-Learning */,
 				8A4A8565295B297D00D4AAF9 /* Mobile-LearningTests */,
 				8A4A856F295B297D00D4AAF9 /* Mobile-LearningUITests */,
@@ -348,6 +351,7 @@
 			files = (
 				8A4A855D295B297D00D4AAF9 /* Preview Assets.xcassets in Resources */,
 				8A4A855A295B297D00D4AAF9 /* Assets.xcassets in Resources */,
+				8A498F13296466760007CA91 /* README.md in Resources */,
 				8A4A8589295B35E700D4AAF9 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
